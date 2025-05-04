@@ -328,6 +328,7 @@ Run Caddy:
 | `S3_BUCKET`                     | S3 bucket for reports                          | `bland-ai-reports`                      | Yes      |
 | `S3_REGION`                     | AWS region                                     | `us-east-1`                             | Yes      |
 | `BLAND_MEMORY_ID`               | Bland AI memory ID for conversation history    | `your_bland_memory_id`                  | Yes      |
+| `BLAND_Timezone`                | Timezone reference for Bland AI                | `Asia/Kolkata`                          | No       |
 
 ---
 
