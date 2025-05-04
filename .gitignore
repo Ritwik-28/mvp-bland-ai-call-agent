@@ -1,0 +1,19 @@
+# Node.js dependencies
+node_modules/
+
+# Local environment file(s)
+.env
+
+# GCP / AWS credentials
+*.json
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+
+# Vercel / Netlify / other deploy artifacts
+dist/
+build/
+bland-admin-gcp-service-account.json
