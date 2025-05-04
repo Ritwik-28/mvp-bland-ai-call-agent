@@ -352,7 +352,7 @@ mvp-bland-ai-call-agent/
 
 ---
 
-## Configuration Files
+## Configuration Files (Templates to be updated as per use case)
 
 ### `config/tasks.js`
 ```javascript
