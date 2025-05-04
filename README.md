@@ -181,6 +181,7 @@ cp .env.example .env
 ```ini
 PORT=3000
 BLAND_API_KEY=your_bland_api_key
+BLAND_MEMORY_ID=your_bland_memory_id
 WEBHOOK_URL=https://your-domain.com/webhook
 WEBHOOK_SECRET=your_webhook_secret
 GOOGLE_APPLICATION_CREDENTIALS=./gcp-service-account.json
@@ -320,12 +321,13 @@ Run Caddy:
 | `PORT`                          | Node.js server port                            | `3000`                                  | Yes      |
 | `BLAND_API_KEY`                 | Bland AI API key                               | `your_bland_api_key`                    | Yes      |
 | `WEBHOOK_URL`                   | Public URL for webhooks                        | `https://calls.your-domain.com/webhook` | Yes      |
-| `WEBHOOK_SECRET`                | Webhook verification secret                    | `your_webhook_secret`                   | Yes      |
+| `WEBHOOK_SECRET`                | Webhook verification secret                    | `your_webhook_secret`                   | No       |
 | `GOOGLE_APPLICATION_CREDENTIALS`| Path to GCP JSON                               | `./gcp-service-account.json`            | Yes      |
 | `SHEET_ID`                      | Google Sheet ID                                | `1AbCDefGhIJkLmNoPqRsTuVwXyZ`           | Yes      |
 | `SHEET_NAME`                    | Sheet tab name                                 | `Master Sheet`                          | Yes      |
 | `S3_BUCKET`                     | S3 bucket for reports                          | `bland-ai-reports`                      | Yes      |
 | `S3_REGION`                     | AWS region                                     | `us-east-1`                             | Yes      |
+| `BLAND_MEMORY_ID`               | Bland AI memory ID for conversation history    | `your_bland_memory_id`                  | Yes      |
 
 ---
 
